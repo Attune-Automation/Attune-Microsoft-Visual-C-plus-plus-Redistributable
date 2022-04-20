@@ -1,0 +1,22 @@
+{
+    "concurrency": 1, 
+    "enabled": true, 
+    "isBlueprint": true, 
+    "key": "installmicrosoftvisualcredistributable", 
+    "links": [
+        {
+            "order": 0, 
+            "stepKey": "downloadinstallerformicrosoftvisualcredistributable"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "runinstallerformicrosoftvisualcredistributable"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "cleanupinstallerfilesformicrosoftvisualcredistributable"
+        }
+    ], 
+    "name": "Install Microsoft Visual C++ Redistributable", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}

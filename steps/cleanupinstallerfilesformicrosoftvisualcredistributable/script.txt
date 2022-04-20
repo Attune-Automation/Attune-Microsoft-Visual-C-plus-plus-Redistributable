@@ -1,0 +1,15 @@
+# Script Variables
+$fileLocation = "c:\software\"
+$installer = "vc_redist.x64.exe"
+$software = "Microsoft Visual C++"
+
+# Cleanup installer.
+if (Test-Path $fileLocation$installer)
+{
+    Remove-Item $fileLocation$installer
+    Write-Host "Cleaned up '$software' installer."
+}
+else
+{
+    Write-Host "'$software' installer not found."
+}
