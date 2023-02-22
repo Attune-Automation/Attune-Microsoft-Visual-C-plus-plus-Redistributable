@@ -98,6 +98,9 @@ This Project contains the following Blueprints.
 
 
 
+### Install Microsoft Visual C++ Redistributable
+
+
 
 
 
@@ -106,6 +109,8 @@ This Project contains the following Blueprints.
 
 | Name | Type | Script Reference | Comment |
 | ---- | ---- | ---------------- | ------- |
+| Windows Node | Windows Node | `windowsnode` | None |
+| Windows User: Administrator | Windows Credential | `windowsuseradministrator` | None |
 
 
 
@@ -115,6 +120,7 @@ This Project contains the following Blueprints.
 
 | Name | Type | Comment |
 | ---- | ---- | ------- |
+| Microsoft Redistributable | Large Archives | None |
 
 
 
