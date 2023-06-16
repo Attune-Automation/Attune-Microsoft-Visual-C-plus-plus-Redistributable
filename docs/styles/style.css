@@ -1,0 +1,145 @@
+
+
+body {
+    min-height: 100vh;
+    background-color: rgba(200, 223, 255, 0.4);
+    color: #4d5b7c;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(3, 27, 78);
+    text-decoration: inherit;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.jumbotron {
+    background-color: rgba(200, 223, 255, 0.4);
+    border-radius: 1rem;
+}
+
+.splash {
+    background: -webkit-radial-gradient(#00A2FF, #0273D4);
+    background: radial-gradient(#00A2FF, #0273D4);
+    box-shadow: inset 0 -16px 16px -16px rgba(0,0,0,0.28);
+    padding: 35px 0;
+    color: #fff;
+}
+
+.splash .h1 {
+    text-shadow: 0px 1px 3px #0273D4;
+}
+
+.splash h5 {
+    padding-top: 20px;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.splash h6 {
+    padding-top: 40px;
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.splash p {
+    -webkit-backface-visibility: visible !important;
+    backface-visibility: visible !important;
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    text-align: left;
+}
+
+.documentation {
+    width: 100%;
+    background-color: white;
+}
+
+.tech-card {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 2px;
+    border: 1px solid #e9f0f3;
+    text-align: left;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    background: #fff;
+}
+
+.attune-ad {
+    background-image: "https://www.servertribe.com/wp-content/uploads/2022/05/home_row_background_1-1.jpg";
+    background-repeat: no-repeat;
+    background-color: rgba(200, 223, 255, 0.4);
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.attune-ad h5 {
+    color: rgb(0, 12, 43);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0px 0px 8px;
+}
+
+.attune-ad p {
+    color: rgb(77, 91, 124);
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px;
+}
+
+.attune-ad a {
+    font-size: .75rem;
+}
+
+code[class*="language-"] {
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+:not(pre) > code[class*="language-"] {
+    padding: .5em 1em !important;
+    background: #081b4b;
+}
+
+pre[class*="language-"] {
+    padding: 0 1em;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    white-space: normal !important;
+    background: #081b4b;
+}
+
+.prompts {
+    padding: .5em;
+}

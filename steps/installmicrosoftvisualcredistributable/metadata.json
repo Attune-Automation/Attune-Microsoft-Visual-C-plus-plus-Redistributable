@@ -1,6 +1,7 @@
 {
     "concurrency": 1, 
     "enabled": true, 
+    "externalUuid4": "71d3fb9a-9bf5-4c12-8060-95a73a92bcb8", 
     "isBlueprint": true, 
     "key": "installmicrosoftvisualcredistributable", 
     "links": [
