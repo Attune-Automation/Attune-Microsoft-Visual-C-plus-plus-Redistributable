@@ -1,0 +1,1 @@
+Cleanup the installer files that are no longer required.
