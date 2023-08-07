@@ -1,0 +1,13 @@
+{
+    "actionOnStepFail": null, 
+    "archiveKey": "microsoftredistributable", 
+    "deployPath": "/c$/software", 
+    "enabled": true, 
+    "externalUuid4": "07ef72c4-9582-42bc-9a2c-2c6d2d435e50", 
+    "key": "pushinstallerformicrosoftvisualcredistributable", 
+    "name": "Push Installer for Microsoft Visual C++ Redistributable", 
+    "osCredKey": "windowsuseradministrator", 
+    "serverKey": "windowsnode", 
+    "type": "com.servertribe.attune.tuples.StepPushDesignFileTuple", 
+    "unpack": false
+}

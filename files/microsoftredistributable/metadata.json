@@ -3,9 +3,9 @@
     "fileName": "VC_redist.x64.exe", 
     "formatKey": "unknown", 
     "key": "microsoftredistributable", 
-    "md5": "119dde89a20674349a51893114eae5ed", 
+    "md5": "077f0abdc2a3881d5c6c774af821f787", 
     "name": "Microsoft Redistributable", 
     "remoteUri": "https://aka.ms/vs/17/release/vc_redist.x64.exe", 
-    "size": 25490328, 
+    "size": 25355496, 
     "type": "com.servertribe.attune.tuples.FileArchiveLargeTuple"
 }

@@ -1,0 +1,24 @@
+{
+    "actionOnStepFail": "stop", 
+    "concurrency": 1, 
+    "enabled": true, 
+    "externalUuid4": "5f5746d7-9f62-4ddc-ae7e-17f946cf533e", 
+    "isBlueprint": true, 
+    "key": "installmicrosoftvisualcredistributableoffline", 
+    "links": [
+        {
+            "order": 50, 
+            "stepKey": "pushinstallerformicrosoftvisualcredistributable"
+        }, 
+        {
+            "order": 100, 
+            "stepKey": "runinstallerformicrosoftvisualcredistributable"
+        }, 
+        {
+            "order": 200, 
+            "stepKey": "cleanupinstallerfilesformicrosoftvisualcredistributable"
+        }
+    ], 
+    "name": "Install Microsoft Visual C++ Redistributable Offline", 
+    "type": "com.servertribe.attune.tuples.StepGroupTuple"
+}
